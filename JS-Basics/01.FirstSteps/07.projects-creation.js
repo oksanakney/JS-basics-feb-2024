@@ -4,8 +4,7 @@ function calculateHours(input) {
 
     let hours = projectsCount * 3;
 
-    console.log("THe architect " + name + " will need " + hours + " hours to complete " + projectsCount + " project/s.");
-    
+    console.log("The architect " + name + " will need " + hours + " hours to complete " + projectsCount + " project/s.");    
 }
 
 calculateHours(["George", "4"]);
