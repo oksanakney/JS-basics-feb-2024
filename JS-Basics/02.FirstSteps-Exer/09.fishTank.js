@@ -7,8 +7,7 @@ function calculateLiters(input) {
     let waterLiters = (length * width * height) / 1000;
     let totalLiters = waterLiters * (1 - percentageOccupied);
 
-    console.log(totalLiters);
-    
+    console.log(totalLiters);    
 }
 
 calculateLiters(["85 ", "75 ", "47 ", "17 "]);
