@@ -1,9 +1,11 @@
 function checkNumber(input) {
   
     let num = Number(input[0]);
-    if (num < 100 || num > 200 || num !== 0) {
+    let isValid = num >= 100 && num <= 200 || num === 0;
+    
+    if (!isValid) {
         console.log("invalid");        
-    } 
+    }
 }
 
 checkNumber(["75"]);
