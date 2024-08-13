@@ -4,6 +4,8 @@ function calculateTime(input) {
     let competitor3Time = Number(input[2]);
  
     let sum = competitor1Time + competitor2Time + competitor3Time;
+    console.log(sum);
+    
     let minutes = Math.trunc(sum / 60);
     let seconds = sum % 60;
  
